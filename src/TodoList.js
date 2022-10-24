@@ -3,7 +3,7 @@ const TodoList = ({ list, remove }) => {
         <>
             {list?.length > 0 ?(
           <ul className='todo-list'>
-            {list.localeCompare((todo, index) => (
+            {list.map((todo, index) => (
               <div className='todo'>
                 <li key={index}> {todo} </li>
 
