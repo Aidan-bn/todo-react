@@ -10,6 +10,8 @@
   align-items: center;
   color: rgb(54, 15, 212);
   margin: 40px auto;
+  border: 2px solid;
+  width: 60vw;
 }
 
 .input-content {
@@ -17,4 +19,36 @@
   flex-direction: column;
   gap: 10px;
   margin-top: 10px;
+  width: 80%;
+  margin-top: 5px;
+}
+
+.dv-input{
+  padding: 4px;
+  font-weight: 400;
+  border: 0px;
+  background-color: rgba(244, 242, 241, 0.4);
+  height: 25px;
+}
+
+.todo-list {
+  list-style: none;
+  width: 80%;
+  padding: 5px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid; */
+  width: 100%;
+  margin-top: 9px;
+  height: 15px;
+}
+
+button {
+  padding: 3px;
+  font-size: 16px;
+  border-radius: 1px;
 }

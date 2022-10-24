@@ -5,6 +5,7 @@ const TodoInput = ({ todo, setTodo, addTodo }) => {
           <input 
           type='text' 
           name='todo' 
+          className="dv-input"
           placeholder='Create todo item'
           value={todo}
           onChange={(e) => {
